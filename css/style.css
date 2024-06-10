@@ -487,7 +487,7 @@
 *	Edit this section
 *
 * ======================================================= */
-body {
+/* body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
@@ -1902,7 +1902,7 @@ body.offcanvas {
   padding: 10px !important; }
 
 .js .animate-box {
-  opacity: 0; }
+  opacity: 0; } */
 
   /** Workshop icon */
   <style>
@@ -1947,346 +1947,88 @@ body.offcanvas {
     }
 </style>
 
-/* skills */
-        <style>
-                                        .cad-software-skill {
-                                            font-size: 15px; /* Adjust size as needed */
-                                            color: #333; /* Adjust color as needed */
-                                            display: flex;
-                                            align-items: center;
-                                        }
-                                
-                                        .cad-software-skill i {
-                                            margin-right: 8px; /* Space between icon and text */
-                                        }
-                                    </style>
-/*Educations*/
-<style>
-              body {
-                  font-family: Arial, sans-serif;
-                  background-color: #f8f9fa;
-                  margin: 0;
-                  padding: 0;
-              }
-      
-              .container {
-                  padding: 0 15px;
-                  margin: 0 auto;
-                  max-width: 100%;
-              }
-      
-              .education-container {
-                  background-color: white;
-                  padding: 10px;
-                  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-                  border-radius: 5px;
-              }
-      
-              .education-container h1 {
-                  text-align: left;
-                  margin-bottom: 10px;
-                  color: #333;
-                  font-size: 20px;
-              }
-      
-              .accordion {
-                  width: 100%;
-              }
-      
-              .accordion-item {
-                  border-bottom: 1px solid #ddd;
-                  overflow: hidden;
-              }
-      
-              .accordion-header {
-                  display: flex;
-                  justify-content: space-between;
-                  align-items: center;
-                  padding: 5px 10px;
-                  background-color: #e9ecef;
-                  cursor: pointer;
-                  transition: background-color 0.3s;
-              }
-      
-              .accordion-header:hover {
-                  background-color: #ddd;
-              }
-      
-              .accordion-header h2 {
-                  margin: 0;
-                  font-size: 16px;
-                  color: #333;
-              }
-      
-              .accordion-icon {
-                  font-size: 18px;
-                  color: #333;
-              }
-      
-              .accordion-content {
-                  max-height: 0;
-                  padding: 0 10px;
-                  background-color: #fff;
-                  overflow: hidden;
-                  transition: max-height 0.5s ease, padding 0.5s ease;
-              }
-      
-              .accordion-content p {
-                  margin: 5px 0;
-                  color: #666;
-              }
-      
-              .accordion-content.show {
-                  max-height: 800px;
-                  padding: 10px;
-              }
-          </style>
+/* contact */
+/*
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
 
-          /*achievement*/
-          <style>
-                                    body {
-                                        font-family: Arial, sans-serif;
-                                        margin: 0;
-                                        padding: 0;
-                                        background-color: #f4f4f4;
-                                        line-height: 1.6;
-                                    }
-                                    .infographic-container {
-                                        max-width: 1200px;
-                                        margin: 20px auto;
-                                        padding: 20px;
-                                        background: #fff;
-                                        box-shadow: 0 0 20px rgba(0,0,0,0.1);
-                                        border-radius: 10px;
-                                    }
-                                    .main-image {
-                                        text-align: center;
-                                        margin-bottom: 20px;
-                                    }
-                                    .main-image img {
-                                        width: 100%;
-                                        height: auto;
-                                        border-radius: 10px;
-                                    }
-                                    .supporting-images {
-                                        display: flex;
-                                        justify-content: space-between;
-                                        gap: 20px;
-                                        margin-bottom: 20px;
-                                    }
-                                    .supporting-image {
-                                        flex: 1;
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                    }
-                                    .supporting-image img {
-                                        width: 100%;
-                                        height: auto;
-                                        border-radius: 10px;
-                                    }
-                                    .video-container {
-                                        text-align: center;
-                                        margin-bottom: 20px;
-                                    }
-                                    .video-container video {
-                                        width: 100%;
-                                        height: auto;
-                                        border-radius: 10px;
-                                    }
-                                    h1 {
-                                        font-size: 2em;
-                                        color: #333;
-                                        margin-bottom: 20px;
-                                    }
-                                    .description {
-                                        margin-top: 10px;
-                                        font-size: 1em;
-                                        color: #555;
-                                        text-align: center;
-                                    }
-                                    @media (max-width: 768px) {
-                                        .supporting-images {
-                                            flex-direction: column;
-                                        }
-                                        .supporting-image {
-                                            margin-bottom: 20px;
-                                        }
-                                    }
-                                    .social-icons a {
-                color: #4CAF50;
-                text-decoration: none;
-                margin-right: 10px;
-                font-size: 24px;
-            }
-            .social-icons a:hover {
-                color: #333;
-            }
-                                </style>
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-/*Work background*/
-<style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: white;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
 
-        .contact-section {
-            padding: 50px 0;
-            text-align: center;
-        }
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
+.contact-form,
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+}
 
-        .contact-title {
-            font-size: 36px;
-            font-weight: bold;
-            margin-bottom: 10px;
-            color: #000;
-        }
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
-        .contact-subtitle {
-            font-size: 16px;
-            margin-bottom: 40px;
-            color: #666;
-        }
+.contact-form label {
+  font-weight: bold;
+}
 
-        .contact-info {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 
-        
+.contact-form button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-        .contact-item {
-            flex: 1 1 25%;
-            width: 25%; /* Adjust as needed */
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-            margin: 10px 0;
-            padding: 20px;
-            background: #f9f9f9;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            transition: background 0.3s;
-            text-align: center;
-        }
+.contact-form button:hover {
+  background-color: #45a049;
+}
 
-        .contact-item:hover {
-            background: #e9e9e9;
-        }
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
-        .contact-icon {
-            font-size: 40px;
-            margin-bottom: 10px;
-            color: #FFA500; /* Orange color */
-        }
+.contact-info h2 {
+  margin-bottom: 10px;
+}
 
-        h4 {
-            margin-bottom: 10px;
-            font-size: 18px;
-            color: #000;
-        }
+.contact-info p {
+  margin: 5px 0;
+}
 
-        p {
-            margin: 0;
-            font-size: 14px;
-            color: #666;
-        }
-    </style>
-    /*image preview*/
-    <style>
-                                .img-fluid {
-                                    max-width: 100%;
-                                    height: auto;
-                                }
-                        
-                                .rounded {
-                                    border-radius: 0.25rem;
-                                }
-                        
-                                /* Shake animation */
-                                @keyframes shake {
-                                    0% { transform: translate(1px, 1px) rotate(0deg); }
-                                    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-                                    20% { transform: translate(-3px, 0px) rotate(1deg); }
-                                    30% { transform: translate(3px, 2px) rotate(0deg); }
-                                    40% { transform: translate(1px, -1px) rotate(1deg); }
-                                    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-                                    60% { transform: translate(-3px, 1px) rotate(0deg); }
-                                    70% { transform: translate(3px, 1px) rotate(-1deg); }
-                                    80% { transform: translate(-1px, -1px) rotate(1deg); }
-                                    90% { transform: translate(1px, 2px) rotate(0deg); }
-                                    100% { transform: translate(1px, -2px) rotate(-1deg); }
-                                }
-                        
-                                .shake:hover {
-                                    animation: shake 0.5s;
-                                    animation-iteration-count: 1;
-                                    animation-fill-mode: forwards;
-                                }
-                        
-                                /* Modal styles */
-                                .modal {
-                                    display: none; 
-                                    position: fixed; 
-                                    z-index: 1; 
-                                    padding-top: 10%; /* Adjust the padding-top value as needed */
-                                    left: 0;
-                                    top: 0;
-                                    width: 100%; 
-                                    height: 100%; 
-                                    overflow: auto; 
-                                    background-color: rgb(0,0,0); 
-                                    background-color: rgba(0,0,0,0.9); 
-                                }
-                        
-                                .modal-content {
-                                    margin: auto;
-                                    display: block;
-                                    width: 80%;
-                                    max-width: 700px;
-                                }
-                        
-                                .modal-content, #caption { 
-                                    animation-name: zoom;
-                                    animation-duration: 0.6s;
-                                }
-                        
-                                @keyframes zoom {
-                                    from {transform:scale(0)} 
-                                    to {transform:scale(1)}
-                                }
-                        
-                                .close {
-                                    position: absolute;
-                                    top: 15px;
-                                    right: 35px;
-                                    color: #fff;
-                                    font-size: 40px;
-                                    font-weight: bold;
-                                    transition: 0.3s;
-                                }
-                        
-                                .close:hover,
-                                .close:focus {
-                                    color: #bbb;
-                                    text-decoration: none;
-                                    cursor: pointer;
-                                }
-                        
-                                @media only screen and (max-width: 700px){
-                                    .modal-content {
-                                        width: 100%;
-                                    }
-                                }
-                            </style>
+.contact-info i {
+  margin-right: 10px;
+  color: #4CAF50;
+}
+
